@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.sozlash {
+    text-align: center;
+    border-radius: 10px;
+}
+
+input, button {
+    border-radius: 5px;
+    margin: 10px;
+}

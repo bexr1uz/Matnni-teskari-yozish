@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Matnni teskari yozish</title>
+</head>
+<body>
+
+<div class="sozlash">
+    <input id="matn" type="text" placeholder="Matn yozing..."><br>
+    <button onclick="bosing()">Teskari chiqar</button>
+
+     <p id="natija"></p>
+</div>
+
+<script>
+function bosing() {
+    let text = document.getElementById("matn").value;
+    let sozlar = text.split(" ");
+    let teskariSozlar = sozlar.reverse().join(" ");
+    document.getElementById("natija").innerHTML = teskariSozlar;
+}
+</script>
+
+</body>
+</html>
